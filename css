@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 50%;
+	background-color: #1B2435;
+	height: 100vh;
+	margin: auto;
+	padding-top: 20px;
+
+}
+.tarjeta-img{
+	width: 90%;
+	background-color: #3F4E5F;
+	height: 50vh;
+	padding-top: 20px;
+	margin: auto;
+	border-right: 8px solid #F7EC07;
+}
+
+.tarjeta-img img{
+	display: block;
+	margin: auto;
+	border-radius: 200px 200px;
+}
+
+.tarjeta-texto {
+	margin-top: 10px;
+	width: 100%;
+	background-color: #4F4E5F;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	font-size: 1.5em; 
+}
+
+.tarjeta-icon{
+	display: block;
+	width: 90%;
+	background-color: #1B2835;
+	margin: auto
+	text-align: center;
+	margin-top: 10px;
+	border-top-right-radius: 50px;
+}
+.tarjeta-icon a{
+	text-decoration: none;
+	color: #fff;
+	text-decoration: 2px 2px 2px 2px blue;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+.tarjeta-icon a i{
+	font-size: 4em;
+	padding-left: 50px;
+	padding-right: 50px;                             
+}
+
+
